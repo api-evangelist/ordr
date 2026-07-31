@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://ordr.net/trust-center
+probe: false
+url: https://ordr.net/trust-center
+certifications:
+- SOC 2 Type 2
+- GDPR
+- CCPA
+upcoming_certifications:
+- ISO 27001:2022
+security_contact: security@ordr.net
+notes: >-
+  Ordr publishes a Trust Center describing its security and compliance posture.
+  Verified via web fetch of https://ordr.net/trust-center on 2026-07-20:
+  SOC 2 Type 2 accreditation, GDPR and CCPA compliance, with ISO 27001:2022
+  certification listed as upcoming. A dedicated SOC 2 detail page is published
+  at https://ordr.net/soc-2-compliance-at-ordr. No formal public vulnerability
+  disclosure policy or bug bounty program was found; the trust center lists a
+  security contact (security@ordr.net).
+evidence:
+- source: https://ordr.net/trust-center
+  keywords:
+  - soc 2 type 2
+  - gdpr
+  - ccpa
+  - iso 27001
+  - trust center

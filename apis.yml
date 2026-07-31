@@ -1,7 +1,30 @@
 aid: ordr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ordr.png
 name: Ordr
-description: Ordr is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ordr provides AI-powered security for connected devices, delivering a Cyber
+  Asset Attack Surface Management (CAASM) platform that discovers, classifies,
+  and secures IT, IoT, OT, and IoMT devices across enterprise networks. The
+  platform combines device intelligence, risk and vulnerability management,
+  network segmentation, and zero-trust enforcement to move organizations from
+  visibility to action. Ordr integrates with existing security and networking
+  infrastructure (Cisco, Palo Alto Networks, CrowdStrike, SentinelOne,
+  Fortinet, Aruba, Juniper) and serves healthcare, manufacturing, financial
+  services, government, and retail sectors. The company is headquartered in
+  Santa Clara, California. This profile was surfaced as a portfolio company of
+  Battery Ventures and enriched from Ordr's public web surface; Ordr does not
+  publish a public developer API or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/ordr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Connected Device Security
+- IoT
+- OT Security
+- IoMT
+- Asset Intelligence
+- CAASM
+- Healthcare
+- Network Segmentation
 apis: []
+common:
+- type: Website
+  url: https://ordr.net
+- type: About
+  url: https://ordr.net/about
+- type: Integrations
+  url: https://ordr.net/integrations
+- type: Blog
+  url: https://ordr.net/blog
+- type: Support
+  url: https://ordr.net/support
+- type: TrustCenter
+  url: security/ordr-trust-center.yml
+- type: Compliance
+  url: https://ordr.net/trust-center
+- type: PrivacyPolicy
+  url: https://ordr.net/privacy-policy
+- type: TermsOfService
+  url: https://ordr.net/terms-of-service
+- type: DomainSecurity
+  url: security/ordr-domain-security.yml
+- type: WellKnown
+  url: well-known/ordr-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

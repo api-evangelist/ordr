@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+host: https://ordr.net
+source: live probes of /.well-known/* on 2026-07-20
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No .well-known discovery documents are published on ordr.net (all probed
+  paths returned 404). Ordr does not publish a public API, OAuth/OIDC
+  authorization server, API catalog, or AI plugin manifest.
